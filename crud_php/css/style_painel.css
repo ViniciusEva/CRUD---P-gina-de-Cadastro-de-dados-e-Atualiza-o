@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.painel {
+    max-width: 800px;
+    margin: 4rem auto;
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.painel h2 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.painel p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.painel h3 {
+    color: #27ae60;
+    margin-top: 1.5rem;
+}
+
+.acoes-admin {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #2980b9;
+}
